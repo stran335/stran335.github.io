@@ -1,0 +1,49 @@
+img[alt=portrait] { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 50%;
+    max-width: 256px;
+    filter: contrast(110%) saturate(80%) drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.3));
+    transition: 0.2s;
+}
+
+#stephen-tran{
+    font-family: "Cormorant Garamond", "Times New Roman", serif;
+    font-size: 50px;
+    font-weight: lighter;
+    margin: -5px;
+}
+
+body {
+    background-color: white;
+    /* background-image: linear-gradient(to top right, white,gray); */
+}
+
+.md-header{
+    background-color: #43ade9;
+}
+
+.action-button{
+    margin: 0 0.25em;
+    padding: 10px 40px;
+    background-color: #43ade9;
+    color: white !important;
+    border-radius: 5px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+    transition: 0.2s;
+    font-size: 110%;
+    width: 50px;
+
+}
+
+a:hover {
+    color: white;
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.3));
+    text-decoration: none; 
+}
+
+.icon {
+    color: white;
+}
