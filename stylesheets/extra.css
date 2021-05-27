@@ -18,12 +18,15 @@ img[alt=portrait] {
 
 body {
     background-color: white;
-    /* background-image: linear-gradient(to top right, white,gray); */
 }
 
-.md-header{
+.md-header {
     background-color: #43ade9;
 }
+
+/* .md-nav--primary {
+    background-color: #43ade9 !important;
+} */
 
 .action-button{
     margin: 0 0.25em;
@@ -35,7 +38,6 @@ body {
     transition: 0.2s;
     font-size: 110%;
     width: 50px;
-
 }
 
 a:hover {
@@ -46,4 +48,8 @@ a:hover {
 
 .icon {
     color: white;
+}
+
+.project-gif {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
