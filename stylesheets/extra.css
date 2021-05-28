@@ -16,22 +16,22 @@ img[alt=portrait] {
     margin: -5px;
 }
 
-body {
+/* body {
     background-color: white;
 }
 
 .md-header {
     background-color: #43ade9;
-}
+} */
 
-/* .md-nav--primary {
+/* .md-nav__title {
     background-color: #43ade9 !important;
 } */
 
 .action-button{
     margin: 0 0.25em;
     padding: 10px 40px;
-    background-color: #43ade9;
+    background-color: #28b5f6;;
     color: white !important;
     border-radius: 5px;
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
@@ -52,4 +52,8 @@ a:hover {
 
 .project-gif {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.md-footer-copyright{
+    visibility: hidden;
 }
